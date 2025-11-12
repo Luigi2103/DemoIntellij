@@ -1,4 +1,4 @@
-package me.example.demojavafx.frontend.View;
+package me.example.demojavafx.frontend;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -7,13 +7,11 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 public class MyFristGui extends Application {
-
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(
-                getClass().getResource("/me/example/demojavafx/MyFristGui.fxml")
+                getClass().getResource("/me/example/demojavafx/myFristGui.fxml")
         );
-
 
         Scene scene = new Scene(fxmlLoader.load(), 600, 400);
         stage.setTitle("Demo JavaFX");
