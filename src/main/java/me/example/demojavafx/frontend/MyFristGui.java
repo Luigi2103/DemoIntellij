@@ -13,8 +13,8 @@ public class MyFristGui extends Application {
                 getClass().getResource("/me/example/demojavafx/myFristGui.fxml")
         );
 
-        Scene scene = new Scene(fxmlLoader.load(), 600, 400);
-        stage.setTitle("Demo JavaFX");
+        Scene scene = new Scene(fxmlLoader.load(), 960, 640);
+        stage.setTitle("Accesso - Demo JavaFX");
         stage.setScene(scene);
         stage.show();
     }
